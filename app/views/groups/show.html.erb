@@ -11,7 +11,7 @@
   <p><%= @group.description %></p>
 
   <table class="table">
-    
+
     <thead>
       <tr>
         <th>文章内容</th>
@@ -31,5 +31,9 @@
     </tbody>
 
   </table>
+
+     <div class="text-center">
+       <%= will_paginate @posts %>
+     </div>
 
 </div>
